@@ -1,0 +1,9 @@
+C:\CIDM 3312\Libs\MathLib\obj\Debug\netstandard2.0\MathLib.csprojAssemblyReference.cache
+C:\CIDM 3312\Libs\MathLib\obj\Debug\netstandard2.0\MathLib.csproj.CoreCompileInputs.cache
+C:\CIDM 3312\Libs\MathLib\obj\Debug\netstandard2.0\MathLib.AssemblyInfoInputs.cache
+C:\CIDM 3312\Libs\MathLib\obj\Debug\netstandard2.0\MathLib.AssemblyInfo.cs
+C:\CIDM 3312\Libs\MathLib\bin\Debug\netstandard2.0\MathLib.deps.json
+C:\CIDM 3312\Libs\MathLib\bin\Debug\netstandard2.0\MathLib.dll
+C:\CIDM 3312\Libs\MathLib\bin\Debug\netstandard2.0\MathLib.pdb
+C:\CIDM 3312\Libs\MathLib\obj\Debug\netstandard2.0\MathLib.dll
+C:\CIDM 3312\Libs\MathLib\obj\Debug\netstandard2.0\MathLib.pdb
