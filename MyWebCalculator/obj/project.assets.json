@@ -11500,23 +11500,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\am996653\\.nuget\\packages\\": {},
+    "C:\\Users\\alexm\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CIDM 3312\\InClass\\WebCalculator\\MyWebCalculator\\MyWebCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\alexm\\Desktop\\Programmin\\WebCalc\\WebCalculator\\MyWebCalculator\\MyWebCalculator.csproj",
       "projectName": "MyWebCalculator",
-      "projectPath": "C:\\CIDM 3312\\InClass\\WebCalculator\\MyWebCalculator\\MyWebCalculator.csproj",
-      "packagesPath": "C:\\Users\\am996653\\.nuget\\packages\\",
-      "outputPath": "C:\\CIDM 3312\\InClass\\WebCalculator\\MyWebCalculator\\obj\\",
+      "projectPath": "C:\\Users\\alexm\\Desktop\\Programmin\\WebCalc\\WebCalculator\\MyWebCalculator\\MyWebCalculator.csproj",
+      "packagesPath": "C:\\Users\\alexm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alexm\\Desktop\\Programmin\\WebCalc\\WebCalculator\\MyWebCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\am996653\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alexm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

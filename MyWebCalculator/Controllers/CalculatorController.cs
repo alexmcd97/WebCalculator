@@ -14,46 +14,60 @@ namespace MyWebCalculator.Controllers
     public class CalculatorController : Controller
     {
 
-        public string Add(decimal one, decimal two)
+        public IActionResult Add(decimal one, decimal two)
         {
             decimal final = MathRoutines.Add(one,two);
-            return $"{one} + {two} = {final}";
+            ViewData["Output"] = $"{one} + {two} = {final}";
+
+            return View();
         }
 
-        public string Ceiling(decimal number)
+        public IActionResult Ceiling(decimal number)
         {
             decimal final = MathRoutines.Ceiling(number);
-            return $"The ceiling of {number} is {final}";
+            ViewData["Output"] = $"The ceiling of {number} is {final}";
+
+            return View();
         }
 
-        public string Floor(decimal number)
+        public IActionResult Floor(decimal number)
         {
             decimal final = MathRoutines.Floor(number);
-            return $"The floor of {number} is {final}";
+            ViewData["Output"] = $"The floor of {number} is {final}";
+
+            return View();
         }
 
-        public string Subtract(decimal one, decimal two)
+        public IActionResult Subtract(decimal one, decimal two)
         {
             decimal final = MathRoutines.Subtract(one,two);
-            return $"{one} - {two} = {final}";
+            ViewData["Output"] = $"{one} - {two} = {final}";
+
+            return View();
         }
 
-        public string Multiply(decimal one, decimal two)
+        public IActionResult Multiply(decimal one, decimal two)
         {
             decimal final = MathRoutines.Multiply(one,two);
-            return $"{one} * {two} = {final}";
+            ViewData["Output"] = $"{one} * {two} = {final}";
+
+            return View();
         }
 
-        public string Divide(decimal one, decimal two)
+        public IActionResult Divide(decimal one, decimal two)
         {
             decimal final = MathRoutines.Divide(one,two);
-            return $"{one} / {two} = {final}";
+            ViewData["Output"] = $"{one} / {two} = {final}";
+
+            return View();
         }
 
-        public string Power(double number, double power)
+        public IActionResult Power(double number, double power)
         {
             double final = MathRoutines.Power(number, power);
-            return $"{number} to the power of {power} is {final}";
+            ViewData["Output"] = $"{number} to the power of {power} is {final}";
+
+            return View();
         }
     }
 }
